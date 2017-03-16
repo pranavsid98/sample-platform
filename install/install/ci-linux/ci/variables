@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# This script contains the variables which we don't want to post on GitHub
+# Copy/rename this to variables, and fill this in.
+
+# File that contains the URL to report to
+reportURLFile="/home/pranav/Desktop/sample-platform/install/ci-linux/results/report_url"
+# Directory that contains the sources of the version to test
+srcDir="/home/pranav/Desktop/ccextractor"
+# Directory to copy the files to
+dstDir="/home/pranav/Desktop/new"
+# Directory where the test suite is located
+suiteSrcDir="/home/pranav/Desktop/sample-platform/install/ci-linux"
+# Directory where the test suite is located
+suiteDstDir="/home/pranav/Desktop/sample-platform/install/ci-linux"
+# Shell script to launch the test suite
+tester="./testsuite"
+# Location of the samples
+sampleFolder="/home/pranav/Desktop/sample-platform/install/sample_files"
+# Location of the result files
+resultFolder="/home/pranav/Desktop/sample-platform/install/result_files"
+# Testfile location
+testFile="/path/to/testfile.xml"
+# The folder that will be used to store the results in
+reportFolder="/home/pranav/Desktop/sample-platform/install/ci-linux/results"
+# The folder that will be used to temporarily store the result files in
+tempFolder="/home/pranav/Desktop/sample-platform/install/ci-linux/temp_results"
